@@ -1,0 +1,14 @@
+.login-button {
+  width: 150px;
+  background-color: var(--primary-color);
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  border: 1px solid var(--primary-color);
+  box-shadow: 4px 4px 20px 0px #00000014;
+
+  &:hover {
+    scale: 1.1;
+    font-weight: 700;
+  }
+}

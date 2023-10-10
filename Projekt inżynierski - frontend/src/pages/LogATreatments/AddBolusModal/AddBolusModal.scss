@@ -1,0 +1,40 @@
+.create-form {
+    max-width: 600px;
+  }
+
+  .create-form-input {
+    width: 150px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .create-form-input span{
+    margin-left: 10px;
+  }
+
+  .create-form .set-date{
+    display: inline-flex;
+    margin-left: 130px;
+    margin-top: -30px;
+  }
+
+  .create-form .add-button:hover{
+    color: var(--primary-color);
+    border-color:  var(--primary-color);
+    scale: 1.1;
+  
+  }
+  .create-form .set-date label{
+    padding: 5px;
+  }
+  .create-form .set-date .set-date-date{
+    height: 39px;
+  }
+  .create-form-input-container {
+    display: flex;
+  }
+
+  .set-date-meal {
+    display: flex;
+    justify-content: space-around;
+  }

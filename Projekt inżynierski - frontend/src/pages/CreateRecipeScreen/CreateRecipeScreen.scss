@@ -1,0 +1,68 @@
+.create-form {
+  max-width: 600px;
+
+  &__input {
+    width: 150px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    span {
+      margin-left: 10px;
+    }
+  }
+
+  &__add-button {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 20px 0px #00000014;
+
+    &:hover {
+      border: var(--heading-color) solid 1px;
+      scale: 1.1;
+    }
+  }
+}
+
+.create-form-input-container,
+.add-method-steps,
+.add-method-step,
+.add-ingredients,
+.create-form-input-nutrition {
+  display: flex;
+}
+
+.ingredients,
+.method-steps {
+  margin-left: 20px;
+}
+
+.ingredients button.ant-btn.css-dev-only-do-not-override-k83k30.ant-btn-default,
+.method-steps
+  button.ant-btn.css-dev-only-do-not-override-k83k30.ant-btn-default,
+.ingredients input {
+  margin-bottom: 10px;
+  width: 547px;
+  margin-left: 40px;
+}
+
+.method-steps textarea {
+  margin-bottom: 10px;
+  width: 547px;
+}
+
+.add-method-step p {
+  font-size: 25px;
+  color: #999;
+  margin-right: 20px;
+}
+
+.create-form-input-nutrition input {
+  width: 70px;
+}
+
+.label-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #444;
+}

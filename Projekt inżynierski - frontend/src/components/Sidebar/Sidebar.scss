@@ -1,0 +1,57 @@
+.sidebar {
+  width: 330px;
+  min-width: 300px;
+  background: var(--primary-color);
+  min-height: 100vh;
+  box-sizing: border-box;
+  position: relative;
+
+  &__content {
+    position: fixed;
+    width: inherit;
+  }
+  &__links {
+    margin-top: 80px;
+    margin-left: 20px;
+    svg,
+    span {
+      color: black;
+    }
+
+    li {
+      margin-top: 10px;
+    }
+    img {
+      margin-right: 10px;
+      filter: invert(100%);
+    }
+    a {
+      display: flex;
+      padding: 10px;
+      text-decoration: none;
+      width: 100%;
+      color: #fff;
+      box-sizing: border-box;
+    }
+
+    svg {
+      margin: 4px 12px 0px 4px;
+      /* margin-right: 15px;
+      margin-top:4px */
+    }
+
+    a.active {
+      color: #555;
+      background: var(--bg-color);
+      border-radius: 20px 0 0 20px;
+    }
+  }
+
+  &__user {
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 40px 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+}
